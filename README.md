@@ -12,7 +12,7 @@ Use python to run 'main.py' file in your CLI(Command-line interface)
 
 ## Specification
 
-Chat Model: GPT-4o  # Recommand
-Embedding Model: text-embedding-3-large  # Recommand
-Vector DB: Chroma==0.5.2
-Python Version: >=3.11
+- Chat Model: GPT-4o  # Recommand
+- Embedding Model: text-embedding-3-large  # Recommand
+- Vector DB: Chroma==0.5.2
+- Python Version: >=3.11
