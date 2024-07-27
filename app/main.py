@@ -46,7 +46,7 @@ for file_path in file_paths:
     documents = loader.load()
     docs = text_splitter.split_documents(documents)
     all_docs.extend(docs)
-    print(f"{file_path} done.")
+    print(f"{file_path} embedded.")
 
 db = Chroma.from_documents(docs, embedding)
 
@@ -62,4 +62,4 @@ rag_chain = (
 )
 
 req = input("How may I help you: ")
-print(rag_chain.invoke(req))
+print("Response:", rag_chain.invoke(req))
